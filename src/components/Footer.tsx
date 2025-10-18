@@ -17,7 +17,7 @@ const Footer = () => {
               <Mail className="h-5 w-5 text-primary group-hover:text-primary-foreground transition-colors" />
             </a>
             <a
-              href="https://www.linkedin.com/in/fbazuaye"
+              href="https://www.linkedin.com/in/frank-bazuaye-bb4a7687/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-primary/10 hover:bg-primary rounded-xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 group"
@@ -26,7 +26,7 @@ const Footer = () => {
               <Linkedin className="h-5 w-5 text-primary group-hover:text-primary-foreground transition-colors" />
             </a>
             <a
-              href="https://www.livegig.com.ng"
+              href="https://livegig.com.ng/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-primary/10 hover:bg-primary rounded-xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 group"

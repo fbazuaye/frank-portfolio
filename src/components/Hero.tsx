@@ -47,7 +47,7 @@ const Hero = () => {
               className="border-2 hover:bg-primary/5 transition-all duration-300"
               asChild
             >
-              <a href="https://www.linkedin.com/in/fbazuaye" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/frank-bazuaye-bb4a7687/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-5 w-5" />
                 LinkedIn
               </a>
@@ -59,7 +59,7 @@ const Hero = () => {
               className="border-2 hover:bg-primary/5 transition-all duration-300"
               asChild
             >
-              <a href="https://www.livegig.com.ng" target="_blank" rel="noopener noreferrer">
+              <a href="https://livegig.com.ng/" target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-2 h-5 w-5" />
                 LiveGig
               </a>
