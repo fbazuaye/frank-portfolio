@@ -44,6 +44,9 @@ const Footer = () => {
             <p className="text-muted-foreground text-xs mt-1">
               Empowering innovation through AI and technology
             </p>
+            <p className="text-muted-foreground text-xs mt-1">
+              Designed by Frank Bazuaye : Powered by LiveGig Ltd.
+            </p>
           </div>
         </div>
       </div>
