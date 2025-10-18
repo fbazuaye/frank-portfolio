@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import profileImage from "@/assets/frank-profile.jpg";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -43,9 +44,13 @@ const Navigation = () => {
           {/* Logo */}
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-            className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent font-['Space_Grotesk']"
+            className="flex items-center"
           >
-            FB
+            <img 
+              src={profileImage} 
+              alt="Frank Bazuaye" 
+              className="w-12 h-12 rounded-full object-cover border-2 border-primary/20 hover:border-primary transition-all duration-300"
+            />
           </button>
 
           {/* Desktop Navigation */}
